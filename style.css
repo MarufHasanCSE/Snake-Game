@@ -1,0 +1,40 @@
+body {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: #00ff00;
+}
+
+.game-wrapper {
+    text-align: center;
+}
+
+.stats {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+canvas {
+    border: 5px solid #333;
+    background-color: #000;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
+}
+
+.controls-hint {
+    margin: 10px 0;
+    font-size: 0.8rem;
+    color: #888;
+}
+
+button {
+    background: #00ff00;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
